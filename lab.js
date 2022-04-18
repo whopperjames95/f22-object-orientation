@@ -93,7 +93,7 @@ var carDetails = {
 */
 
 //Code Here
-
+const = {color, make, model, year} = car //this is an example of object destructuring and saving the values
 
 
 //////////////////////////// PROBLEM 7 ////////////////////////////
