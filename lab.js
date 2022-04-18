@@ -5,7 +5,10 @@
 */
 
 //Code here
-
+let me = {            //after let me = {name and age are the KEYS }
+  name: "James", 
+  age : 26
+}
 
 
 //////////////////////////// PROBLEM 2 ////////////////////////////
@@ -17,20 +20,28 @@
 
 //Code here
 
+let dog = {
+  name: "spike", //string: "spike"
+  color: "blue", //string: "blue"
+  age: 5, 
+  goodBoy: true  //boolean always true, unless its zero or nothing inside of string, which then would be false
+}
+
+
 
 
 //////////////////////////// PROBLEM 3 ////////////////////////////
 /* Print out the name of the dog you created in problem 2 using dot-notation. */
 
 //Code here
-
+console.log(dog.name)        // dot notation: console.log(stringX.stringY)
 
 
 //////////////////////////// PROBLEM 4 ////////////////////////////
 /* Print out the color of the dog you created in problem 2 using bracket-notation. */
 
 //Code here
-
+console.log(dog['color'])
 
 
 //////////////////////////// PROBLEM 5 ////////////////////////////
