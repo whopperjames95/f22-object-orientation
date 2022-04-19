@@ -183,6 +183,9 @@ var user = {
 */
 
 //Code Here
+user.name = 'Bryan G. Smith'                        //this is the process of changing the list value
+user.email = 'bryan.smith@devmounta.in'
+
 
 
 //////////////////////////// PROBLEM 11 ////////////////////////////
@@ -191,7 +194,7 @@ var user = {
 */
 
 //Code Here
-
+delete user.age 
 
 //////////////////////////// PROBLEM 12 ////////////////////////////
 /*
@@ -201,6 +204,18 @@ var user = {
 */
 
 //Code here
+class Cat{
+  constructor(name, color, age) {
+    this.name = name
+    this.color = color
+    this.age = age
+  }
+}
+
+const cat1 = new Cat('snickers', 'orange', 5)
+
+
+
 
 
 
