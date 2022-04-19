@@ -93,7 +93,7 @@ var carDetails = {
 */
 
 //Code Here
-const = {color, make, model, year} = car //this is an example of object destructuring and saving the values
+const {color, make, model, year} = car //this is an example of object destructuring and saving the values
 
 
 //////////////////////////// PROBLEM 7 ////////////////////////////
@@ -107,6 +107,9 @@ const = {color, make, model, year} = car //this is an example of object destruct
 function greeting( obj ) {
   //Code Here
   
+const {title, firstName, lastName} = property
+
+
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
@@ -125,6 +128,22 @@ function greeting( obj ) {
 */
 
 //Code Here
+const property = {
+  'utah': 1,
+  'california': 2,
+  'texas': 3,
+  'arizona': 4
+}
+
+
+
+function totalPopulation(obj) {              //wrote function called totalpopulation taking in an object = ( )
+const {utah, california, texas, arizona} = obj     // This here is object equation including the 4 properties
+return utah + california + texas + arizona
+}
+
+
+
 
 
 
@@ -139,7 +158,10 @@ function greeting( obj ) {
 */
 
 //Code Here
-
+function ingredients(obj){
+  const {carb, fat, protein} = obj
+  return [carb, fat, protein]
+}  
 
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
