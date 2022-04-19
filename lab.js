@@ -229,6 +229,23 @@ const cat1 = new Cat('snickers', 'orange', 5)
 
 //Code here
 
+class Wizard{
+  constructior(name, age, favoriteSpell) {
+    this.name = name
+    this.age = age
+    this.favoriteSpell = favoriteSpell
+  }
+  castspell() {
+    console.log(`${this.name} has cast ${this.favoriteSpell}`)
+  }
+}
+
+const Wizard1 = new Wizard('Harry', 15, 'foasidfjijiosodi')
+  
+Wizard1.castSpell()
+
+
+
 //////////////////////////// PROBLEM 14 ////////////////////////////
 /*
     Write a class called Phone. We'll use it as if we were creating
@@ -254,6 +271,24 @@ const cat1 = new Cat('snickers', 'orange', 5)
 
 //Code Here
 
+class Phone {       //class created 
+  constructor(brand, model, storage, color, price){      //constructor created
+    this.brand = brand
+    this.model = model
+    this.storage = storage
+    this.color = color
+    this.price = price
+    this.sold = false
+  }
+  sell() {
+    console.log(`${this.brand} ${this.model} has been sold.`)   //created funtion sale, this console log prints the string: {brand} {model}
+  }
+  changePrice(newPrice) {                       //changePrice(this is the argument)
+      this.price = newPrice
+  }
+}
+
+
   
 /*
     Next make three new phone instances using your class.
@@ -266,6 +301,15 @@ const cat1 = new Cat('snickers', 'orange', 5)
 */
 
 //Code Here
+//phoneOne
+//phoneTwo
+//phoneThree
+
+phoneOne = new Phone ('Motorola', 'Garbage Model', 12, 'Blue', 100)
+phoneTwo = new Phone ('Apple', 'Iphone', 32, 'Black', 1000)
+phoneThree = new Phone ('Lg', 'Chocolate', 8, 'Black', 200)
+
+
 
 /* 
   Call the changePrice function on one of your phones, 
@@ -275,6 +319,7 @@ const cat1 = new Cat('snickers', 'orange', 5)
 */ 
 
 //Code Here 
+phoneTwo.changePrice(1500)
 
 
 /*
@@ -284,6 +329,12 @@ const cat1 = new Cat('snickers', 'orange', 5)
 */
 
 //Code Here 
+
+phoneOne.sell()
+
+console.log(phoneOne.sold)
+
+
 
 
 //////////////////////////// PROBLEM 15 ////////////////////////////
@@ -303,6 +354,8 @@ const colors = {
 //do not edit this object
 
 //Code Here 
+
+
 
 
 
